@@ -34,6 +34,22 @@ function sub()
  sub=num1+num2
  document.getElementById("answer").value;
 }
+function div()
+{
+ var,num1,num2,sum
+ num1=perseInt(document.getElementById("first num")value);
+ num1=perseInt(document.getElementById("second num")value);
+ div=num1%num2
+ document.getElementById("answer").value;
+}
+function mul()
+{
+ var,num1,num2,sum
+ num1=perseInt(document.getElementById("first num")value);
+ num1=perseInt(document.getElementById("second num")value);
+ mul=num1*num2
+ document.getElementById("answer").value;
+}
 function reset()
 {document.getElementById("first num")value="";
  document.getElementById("second num")value="";
@@ -48,6 +64,8 @@ function reset()
 <p>enter the first number:<input Id="second num"></p>
 <button onclick="add()">+</button>
 <button onclick="sub()">-</button>
+<button onclick="div()">%</button>
+<button onclick="mul()">*</button>
 <button onclick="reset()">c</button>
 <Result:input Id="answer">
 </center>
